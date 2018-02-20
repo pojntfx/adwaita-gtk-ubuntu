@@ -67,3 +67,16 @@ $backdrop_scrollbar_bg_color: darken($backdrop_bg_color, 3%);
 $backdrop_scrollbar_slider_color: mix($backdrop_fg_color, $backdrop_bg_color, 40%);
 
 $backdrop_menu_color: if($variant == 'light', $backdrop_base_color, mix($backdrop_bg_color, $backdrop_base_color, 20%));
+
+// Edits for Adwaita-Ubuntu (check Adwaita-Ubuntu/gtk-2.0/gtkrc for GTK2 Values)
+
+// Unity8 default values (should not be changed)
+$warning_color: #f57900;
+$error_color: #cc0000;
+$success_color: if($variant=='light', #73d216, darken(#73d216, 10%));
+$destructive_color: if($variant=='light', #ef2929, darken(#ef2929, 10%));
+
+// Primary accent color (variant color)
+$selected_bg_color: #23A5D4; // Unity8 Light Blue
+// $selected_bg_color: #335280; // Unity8 Dark Blue
+// $selected_bg_color: #E95420; // Unity7 Orange
