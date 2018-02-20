@@ -34,11 +34,6 @@ gtk-color-scheme = "tooltip_fg_color:#ffffff\ntooltip_bg_color:#343434"
 gtk-auto-mnemonics              = 1
 gtk-primary-button-warps-slider = 1
 
-# And hand over the control to the theme files
-include "main.rc"
-include "apps.rc"
-include "hacks.rc"
-
 # Edits for Adwaita-Ubuntu
 # Primary accent color (variant color)
 # Unity8 Light Blue
@@ -47,3 +42,8 @@ gtk-color-scheme = "selected_fg_color:#ffffff\nselected_bg_color:#23A5D4"
 # gtk-color-scheme = "selected_fg_color:#ffffff\nselected_bg_color:#335280"
 # Unity7 Orange
 # gtk-color-scheme = "selected_fg_color:#ffffff\nselected_bg_color:#E95420"
+
+# And hand over the control to the theme files
+include "main.rc"
+include "apps.rc"
+include "hacks.rc"
