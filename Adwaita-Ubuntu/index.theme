@@ -1,0 +1,9 @@
+[X-GNOME-Metatheme]
+Name=Adwaita-Ubuntu
+Type=X-GNOME-Metatheme
+Comment=A modern Ambiance replacement that keeps Ubuntu's identity while staying upstream
+Encoding=UTF-8
+GtkTheme=Adwaita-Ubuntu
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24

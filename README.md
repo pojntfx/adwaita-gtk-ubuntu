@@ -4,7 +4,7 @@ A modern Ambiance replacement that keeps Ubuntu's identity while staying upstrea
 
 ## Motivation
 
-Ambiance is over 8 years old now and does not stand a chance against other modern operating systems in both looks and UX, which hurts Ubuntu's reputation and adoption. In [our](https://community.ubuntu.com/t/adwaita-with-unity-8-colours/4041/67) opinion this should be the maintainable theme to use if [Communitheme](https://github.com/Ubuntu/gtk-communitheme) will not get done in time for the Ubuntu 18.04 LTS release. It is not seen as a replacement for Communitheme, but rather as a sane fallback option.
+Ambiance is over 8 years old now and does not stand a chance against other modern operating systems in terms of both looks and UX, which hurts Ubuntu's reputation and adoption. In [our](https://community.ubuntu.com/t/adwaita-with-unity-8-colours/4041/67) opinion this should be the maintainable theme to use if [Communitheme](https://github.com/Ubuntu/gtk-communitheme) will not get done in time for the Ubuntu 18.04 LTS release. It is not seen as a replacement for Communitheme, but rather as a sane fallback option.
 
 ## Installation
 
