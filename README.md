@@ -28,7 +28,7 @@ sudo ninja install
 
 ## Screenshots
 
-> In addition to Adwaita-GTK-Ubuntu, there is also Adwaita-Shell-Ubuntu (WIP) and [Adwaita-Icons-Ubuntu](https://github.com/pojntfx/adwaita-icon-theme). These are minimal forks of upstream Adwaita, just like this theme. [Colors from the official Unity8 documentation](https://docs.google.com/document/d/1CjPvxz_dk9Cn5HiZ_d0POYtqNAHjO1c5omAbNjZJiKg/edit) are being used. A [wallpaper](https://ubuntucommunity.s3-us-east-2.amazonaws.com/original/2X/8/858e23528c9942005be17db0634c2a69ea365f3a.jpg) has also been created by [nusi](https://community.ubuntu.com/u/nusi/summary).
+> In addition to Adwaita-GTK-Ubuntu, there is also Adwaita-Shell-Ubuntu (WIP) and [Adwaita-Icons-Ubuntu](https://github.com/pojntfx/adwaita-icon-theme). These are minimal forks of upstream Adwaita, just like this theme. [Colors from the official Unity8 documentation](https://docs.google.com/document/d/1CjPvxz_dk9Cn5HiZ_d0POYtqNAHjO1c5omAbNjZJiKg/edit) are being used. A [wallpaper](https://ubuntucommunity.s3-us-east-2.amazonaws.com/original/2X/8/858e23528c9942005be17db0634c2a69ea365f3a.jpg) has also been created by [nusi](https://community.ubuntu.com/u/nusi/summary) and can be found in the ```wallpapers``` folder in this repository.
 
 There are multiple color variants that you may choose from:
 
