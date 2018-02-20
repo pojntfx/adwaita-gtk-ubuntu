@@ -36,7 +36,7 @@ There are multiple color variants that you may choose from:
 - Unity8 Dark Blue, which is ```#335280```
 - Unity7 Orange, which is ```#E95420```
 
-To enable one of them, remove the ```//``` in front of each variant in ```Adwaita-Ubuntu/gtk-3.0/_colors.scss```. Make sure you only have all but one variant commented out!
+To enable one of them, remove the ```//``` in front of each variant at the bottom of ```Adwaita-Ubuntu/gtk-3.0/_colors.scss``` and the ```#``` at the bottom of ```Adwaita-Ubuntu/gtk-2.0/gtkrc```. Make sure you only have all but one variant commented out!
 
 ### Light versions
 
