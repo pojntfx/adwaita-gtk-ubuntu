@@ -7,3 +7,4 @@ Essential: no
 Installed-Size: 1024
 Maintainer: github.com/pojntfx
 Description: A modern Ambiance replacement that keeps Ubuntu's identity while staying upstream.
+Built-Using: meson
