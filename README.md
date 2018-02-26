@@ -11,15 +11,27 @@ Ambiance is over 8 years old now and does not stand a chance against other moder
 Some of the reasons to use Adwaita (from the [Ubuntu Community Hub](https://community.ubuntu.com/t/adwaita-with-unity-8-colours/4041/2)) instead of Ambiance:
 
 * Adwaita looks more modern than Ambiance
-* Adwaita is developed with gnome-shell in mind instead of the now dead Unity Desktop
+* Adwaita is developed with gnome-shell in mind instead of the now dead Unity7 Desktop
 * Adwaita will be a lot easier to maintain
 * Adwaita with Unity8 colors combines GNOME's great UX and the newest Ubuntu Design
 
 ## Installation
 
-> A ppa will be provided in the future. Please compile from source for now.
+> A ppa will be provided in the future. Please install the `adwaita-gtk-ubuntu.deb` package or compile from source for now.
 
-In order to do build and install the theme, you need to have the `sassc` package installed.
+### From package (for Debian-based systems, recommended)
+
+Double-click `adwaita-gtk-ubuntu.deb` to install the theme with the GNOME Software Center or run the following:
+
+```bash
+sudo dpkg -i adwaita-gtk-ubuntu.deb
+```
+
+Now select the theme in GNOME Tweaks and log out and in again to insure that the theme has been applied completely.
+
+### From source
+
+In order to do build the theme, you need to have the `sassc` package installed.
 
 ```bash
 meson build --prefix=/usr
@@ -32,13 +44,24 @@ To update the theme after you've made your own changes, just run the following a
 sudo ninja -C build install
 ```
 
+Now select the theme in GNOME Tweaks and log out and in again to insure that the theme has been applied completely.
+
 If you want to update the .deb package, run the following:
 
 ```bash
 ADWAITA_GKT_UBUNTU_DIR="$(pwd)/usr"
 meson build --prefix=${ADWAITA_GKT_UBUNTU_DIR}
 ninja install -C build
+dpkg-deb --build . adwaita-gtk-ubuntu.deb
 ```
+
+This will create a fresh new package that you can install using by running the following command:
+
+```bash
+sudo dpkg -i adwaita-gtk-ubuntu.deb
+```
+
+or by double-clicking and installing the package using the GNOME Software Center.
 
 Now select the theme in GNOME Tweaks and log out and in again to insure that the theme has been applied completely.
 
